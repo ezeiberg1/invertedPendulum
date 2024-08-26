@@ -27,11 +27,9 @@ theta2_increment = theta2/animationFrames;
 theta1_vals = [0: theta1_increment: theta1]
 theta2_vals = [0: theta2_increment: theta2]
 
-% task 1
 
-% task 2
 m = []
-% task 3
+
     % J1 = 0.0012;
     % I2 = 0.3;
     % Beta2 = 0.002;
