@@ -1,4 +1,4 @@
-# Self-Balancing Inverted Pendulum
+# Self-Balancing Inverted Pendulum - 2024
 
 The goal of this project was to design a self-balancing inverted pendulum. We designed a position control device uses PID control, which consists of three parts, proportional , integral, and derivative. Proportional (P) decreases the error in the transient region by using the existing error to provide a correction. The integrator (I) uses the sum of the past error to make a correction, so if there is a steady state error, “I” accumulates this error to make a correction. However, when the target value is reached, there is still accumulated error, so “I” causes the system to overshoot.
 Derivative (D) helps to reduce rise time since when the error is large, “D” has a greater effect. It also helps to reduce overshoot in the transient region since it decreases when the actual value is getting closer to the target value.
